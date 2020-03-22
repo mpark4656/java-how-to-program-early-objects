@@ -8,3 +8,4 @@ Skips Chapter 1 since it doesn't have coding exercises.
 ## Chapters
 - Chapter 2: Introduction to Java Applications; Input/Output and Operators
 - Chapter 3: Introduction to Classes, Objects, Methods, and Strings
+- Chapter 4: Control Statements: Part I; Assignment, ++ and -- Operators
