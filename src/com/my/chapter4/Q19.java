@@ -1,6 +1,5 @@
 package com.my.chapter4;
-
-/**
+/*
  * A large company pays its salespeople on a commission basis. The salespeople receive $200 per week plus 9% of
  * their gross sales for that week. For example, a salesperson who sells $5000 worth of merchandise in a week
  * receives $200 plus 9% of $5000, or a total of $650. You've been supplied with a list of the items sold by each
@@ -16,11 +15,10 @@ package com.my.chapter4;
  * that salesperson's earnings. There is no limit to the number of items that can be sold.
  */
 import java.util.HashMap;
-import java.util.List;
 
 class Salesperson {
-    private int id;
-    private HashMap<Integer, Integer> itemsSold = new HashMap<>();
+    private final int id;
+    private final HashMap<Integer, Integer> itemsSold = new HashMap<>();
 
     public Salesperson(int id) {
         this.id = id;
